@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sreyan Catering Homepage</title>
+    <link rel="icon" type="image/png" href="logoimage.jpeg">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="logoimage.jpeg" alt="Website Logo" class="logo"> 
+           
+            <nav class="head-right">
+                <ul class= "head">
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Welcome to Sreyan!</h2>
+            <p> <i>Exquisite Catering for Every Occasion</i></p>
+            <a href="#contact" class="hero-button">Book your Event Today!</a>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>We offer a wide range of catering services!</p>
+        <u><ul>
+            <li>Buffet catering</li>
+            <li>Plated meals</li>
+            <li>Corporate events</li>
+            <li>Wedding catering</li>
+            <li>Themed menus and etc</li>
+        
+            <!-- More services can be listed here -->
+        </ul>
+    </u>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to Sreyan Catering, where we turn every event into a memorable dining experience! Whether it's a wedding, corporate event, birthday party, or private gathering, our expert chefs craft delicious, high-quality meals tailored to your taste.</p>
+        <!-- More about the business -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Phone: (+91) 8617291584</p>
+        <p>Email: contact@Sreyancatering.com</p>
+
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <!-- Additional contact details or a contact form -->
+    </section>
+
+    <section id="booking-form" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeBookingForm()">&times;</span>
+            <center>
+            <h2>Book Our Catering Service</h2>
+            <form id="booking-form-data">
+                <p><input type="text" placeholder="Your Name" required> </p>
+                <p><input type="text" placeholder="Event Type" required></p>
+                <p><input type="date" required></p>
+                <button class="submit" type="submit">Submit</button>
+            </form>
+            </center>
+            
+        </div>
+    </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 Sreyan Catering. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
